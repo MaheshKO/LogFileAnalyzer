@@ -64,3 +64,25 @@ made.
 
 **output :**
 
+WARNING: Malformed log line: 2023-03-01 - ServiceA - ERROR - Missing timestamp detail
+{
+    "logLevels": {
+        "INFO": 6,
+        "ERROR": 3,
+        "WARN": 2,
+        "DEBUG": 1
+    },
+    "services": {
+        "ServiceA": 3,
+        "ServiceB": 4,
+        "ServiceC": 2,
+        "ServiceD": 1,
+        "???": 1,
+        "ServiceE": 1
+    },
+    "mostCommonError": {
+        "message": "Null pointer exception",
+        "count": 2
+    }
+}
+
